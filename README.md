@@ -32,21 +32,68 @@ This repository contains some required details about kubernetes. It will help yo
 
 Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster is composed of many nodes, which can be split into two types:
 
- - The master node, which hosts the Kubernetes Control Plane that controls and manages the whole Kubernetes system. Control Plane contains following:-
+ - The master node, which hosts the Kubernetes Control Plane that controls and manages the whole Kubernetes system. The Control Plane is what controls the cluster and makes it function. It consists of multiple components that can run on a single master node or be split across multiple nodes and replicated to ensure high availability. These components are
     - API Server
     - ETCD
     - Schedular
-    - Comtroller Manager
+    - Controller Manager
    And many more componants are there but this four are the default componants of control plane.
 
- - Worker nodes that run the actual applications you deploy. Worker nodes contains components are as follows:-
+ - Worker nodes that run the actual applications you deploy. The worker nodes are the machines that run your containerized applications. The task of running, monitoring, and providing services to your applications is done by the following components:
    - Kubelet
-   - Kube proxy
+   - Kube-proxy
    - Container Engine
    - Pods
 
-  ![alt text](<Arc k8s.png>)
+ ![alt text](<Arc k8s.png>)
 
+        - API Server :-
+            - API Server acts as a middle-ware. The Kubernetes API Server, which you and the other Control Plane components
+            communicate.
+            - This api-server interacts directly with the user (i.e we apply .yml or .json manifest to kube-api-server).
+            - This kube-api-server is meant to scale automatically as per load.
+            - Kube-api-server is the front end of the control plane.
+
+        - ETCD :-
+            - ETCD is a reliable distributed data store that persistently stores the cluster configuration.
+            - Stores metadata and status of the cluster.
+            - etcd is a consistent and high-available store (key-value-store).
+            - Source of touch for cluster state (info about the state of the cluster).
+
+        - Schedular :-
+            - The Scheduler, which schedules your apps (assigns a worker node to each deployable component of your application).
+            - When users request the creation & management of Pods, Kube scheduler is going to take action on these requests.Handles POD creation and Management.
+            - Kube-scheduler match/assigns any node to create and run pods.
+            - A scheduler watches for newly created pods that have no node assigned. For every pod that the scheduler discovers, the scheduler becomes responsible for finding the best node for that pod to run.
+            - The scheduler gets the information for hardware configuration from configuration files and schedules the Pods on nodes accordingly.
+
+         - Controller Manager :-
+            - The Controller Manager, which performs cluster-level functions, such as replicating components, keeping track of worker nodes, handling node failures, and it matches the actual state and desired state.
+            -  Make sure the actual state of the cluster matches the desired state. Two possible choices for controller manager 
+                  1. If K8s is on the cloud, then it will be a cloud controller manager.
+                  2. If K8s is on non-cloud, then it will be kube-controller-manager.
+
+          - Kubelet :- 
+              - Kubelet is an agent that runs on each node in the cluster. It is responsible for managing the node and its containers.
+              - Kubelet receives pod specifications from the API server and ensures that the pods are running and healthy.
+              - It interacts with the container runtime (e.g., Docker, containerd) to create, start, stop, and delete containers.
+
+          - Kube-proxy :- 
+              - Kube-Proxy is a network proxy that runs on each node and implements Kubernetes service abstraction.
+              - It maintains network rules on the host and performs packet forwarding, enabling communication between pods and services within the cluster.
+              - Kube-Proxy is responsible for load balancing and routing traffic to the appropriate pods.
+
+          - Container Engine :-
+              - The container engine is responsible for running the containers within pods. It provides the necessary infrastructure to create, manage, and execute containerized applications.
+              - Kubernetes supports various container runtimes as container engines, including Docker, containerd.
+              - The container engine interacts directly with the underlying operating system's kernel to create isolated environments for running containers.
+
+          - Pods :-
+              - Pods are the smallest deployable units in Kubernetes. They represent a group of one or more containers that share networking, storage, and other resources.
+              - Pods encapsulate one or more containers that are tightly coupled and need to run together on the same node.
+              - Each pod gets its own unique IP address and can communicate with other pods in the cluster.
+              - Pods are scheduled onto nodes in the cluster by the Kubernetes scheduler.
+              - Pods provide a higher level of abstraction than individual containers, allowing for easier management of multi-container applications.
 
 
 
