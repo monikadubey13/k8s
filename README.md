@@ -1,6 +1,6 @@
 # Kubernetes Documentation
 
-This repository contains some required details about kubernetes. It will help you to know about kubernetes i.e what is kubernetes, why we use kubernetes, Architecture of kubernetes, Objects of kubernetes and also what are the services used in kubernetes. I had providend some examples on each object which will help you to understand.
+This repository contains some required details about kubernetes. It will help you to know about kubernetes i.e what is kubernetes, why we use kubernetes, Architecture of kubernetes, Objects of kubernetes. I had providend some examples on each object which will help you to understand.
 
 ## 1] WHAT IS KUBERNETES?
 
@@ -93,6 +93,10 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
       - Each pod gets its own unique IP address and can communicate with other pods in the cluster.
       - Pods are scheduled onto nodes in the cluster by the Kubernetes scheduler.
       - Pods provide a higher level of abstraction than individual containers, allowing for easier management of multi-container applications.
+
+## 4] UNDERSTANDING THE LIFECYCLE OF PODS ?
+ 
+ ![alt text](<K8S lifecycle policy-1.png>)
 
 
 
