@@ -8,8 +8,6 @@ This repository contains some required details about kubernetes. It will help yo
  - K8s is a Open-source orchestration tool developed by google. 
  - In terms of k8s orchestration refers to the automated management, co-ordination, and deployment of containerized applications across a cluster of nodes. Kubernetes is an open-source platform designed to automate the deployment, scaling, and management of containerized applications.
  - It schedules, runs, and manages isolated containers that are running on virtual/physical/cloud machines.
-
-
 ## 2] WHY KUBERNETES (K8s)?
  
  - All top cloud providers supports K8s. 
@@ -30,9 +28,27 @@ This repository contains some required details about kubernetes. It will help yo
 
    These features make Kubernetes a powerful platform for deploying and managing containerized applications, providing capabilities beyond what Docker offers alone.
 
-## 3] ARCHITECTURE OF K8S?
+## 3] UNDERSTANDING THE ARCHITECTURE OF K8S CLUSTER ?
+
+Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster is composed of many nodes, which can be split into two types:
+
+ - The master node, which hosts the Kubernetes Control Plane that controls and manages the whole Kubernetes system. Control Plane contains following:-
+    - API Server
+    - ETCD
+    - Schedular
+    - Comtroller Manager
+   And many more componants are there but this four are the default componants of control plane.
+
+ - Worker nodes that run the actual applications you deploy. Worker nodes contains components are as follows:-
+   - Kubelet
+   - Kube proxy
+   - Container Engine
+   - Pods
   
-![alt text](<Arc k8s.png>)
+  ![alt text](<Arc k8s.png>)
+
+
+
 
 
 
