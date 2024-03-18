@@ -96,7 +96,11 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
 
 ## 4] UNDERSTANDING THE LIFECYCLE OF PODS ?
  
- ![alt text](<K8S lifecycle policy.png>)
+ ![alt text](policy.png)
+
+
+ 
+ 
 
 
 
