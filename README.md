@@ -28,6 +28,5 @@ Basic Routing and DNS: Kubernetes includes built-in mechanisms for routing netwo
 
 These features make Kubernetes a powerful platform for deploying and managing containerized applications, providing capabilities beyond what Docker offers alone.
 
-https://mohan08p.medium.com/simplified-kubernetes-architecture-3febe12480eb
 
 
