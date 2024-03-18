@@ -32,7 +32,7 @@ This repository contains some required details about kubernetes. It will help yo
 
 ## 3] ARCHITECTURE OF K8S?
   
-    ![alt text](<Arc k8s.png>)
+![alt text](<Arc k8s.png>)
 
 
 
