@@ -30,6 +30,6 @@ These features make Kubernetes a powerful platform for deploying and managing co
 
 3] ARCHITECTURE OF K8S?
 
-
+![alt text](<Arc k8s.png>)
 
 
