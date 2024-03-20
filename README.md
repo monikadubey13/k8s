@@ -99,6 +99,7 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
 ![alt text](<K8S lifecycle policy.png>)
 
 
+
  
  
 
