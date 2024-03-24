@@ -116,7 +116,7 @@ Namespace
 Replication controller
 Replicaset
 Deployment
-Stateful set
+Statefulset
 Daemon set
 Config Map
 Secrets
