@@ -113,4 +113,5 @@ Nodes
 Pods
 Service
 Namespace
-Re
+Replicaset
+
