@@ -118,4 +118,5 @@ Replicaset
 Deployment
 Stateful set
 Daemon set
+Config Map
 
