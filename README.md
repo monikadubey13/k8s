@@ -107,4 +107,4 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
 
 During the pod lifecycle, these components collaborate to ensure pods are created, scheduled onto nodes, monitored, and managed according to the desired state specified by users or administrators. The orchestration allows kubernetes to maintain the availabilty, and scalabilty and reliability of applications running in the cluster.
 
-5] TYPES OF OBJECTS IN KUBERNETS
+5] TYPES OF OBJECTS IN K8S
