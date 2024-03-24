@@ -117,10 +117,10 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 - Replicaset
 - Deployment
 - Statefulset
-Daemonset
-Config Map
-Secrets
-hpa [Horizontal Pod Autoscaler]
+- Daemonset
+- Config Map
+- Secrets
+- hpa [Horizontal Pod Autoscaler]
 Ingress
 PV and PVC
 
