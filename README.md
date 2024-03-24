@@ -117,7 +117,7 @@ Replication controller
 Replicaset
 Deployment
 Statefulset
-Daemon set
+Daemonset
 Config Map
 Secrets
 hpa 
