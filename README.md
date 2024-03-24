@@ -116,5 +116,5 @@ Namespace
 Replication controller
 Replicaset
 Deployment
-Sta
+Stateful
 
