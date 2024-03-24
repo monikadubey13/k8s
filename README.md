@@ -109,10 +109,10 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 
 ## 5] TYPES OF OBJECTS IN K8S
 
--Nodes
-Pods
-Service
-Namespace
+- Nodes
+- Pods
+- Service
+- Namespace
 Replication controller
 Replicaset
 Deployment
