@@ -113,5 +113,8 @@ Nodes
 Pods
 Service
 Namespace
-Replication
+Replication controller
+Replicaset
+Deployment
+Sta
 
