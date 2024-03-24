@@ -120,7 +120,7 @@ Statefulset
 Daemonset
 Config Map
 Secrets
-hpa 
+hpa [Horizontal Pod Autoscaler]
 Ingress
 PV and PVC
 
