@@ -114,9 +114,9 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 - Service
 - Namespace
 - Replication controller
-Replicaset
-Deployment
-Statefulset
+- Replicaset
+- Deployment
+- Statefulset
 Daemonset
 Config Map
 Secrets
