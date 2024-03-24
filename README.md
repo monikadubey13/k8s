@@ -121,6 +121,6 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 - Config Map
 - Secrets
 - hpa [Horizontal Pod Autoscaler]
-Ingress
-PV and PVC
+- Ingress
+- PV and PVC
 
