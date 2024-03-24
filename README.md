@@ -122,5 +122,5 @@ Config Map
 Secrets
 hpa 
 Ingress
-PV 
+PV and PVC
 
