@@ -106,3 +106,5 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
 - Kubepoxy is a network proxy that runs on each node and maintains network rules to enable communication between pods across the cluster. It manages network connectivity for services, load balancing, and routing traffic to the appropriate pods.
 
 During the pod lifecycle, these components collaborate to ensure pods are created, scheduled onto nodes, monitored, and managed according to the desired state specified by users or administrators. The orchestration allows kubernetes to maintain the availabilty, and scalabilty and reliability of applications running in the cluster.
+
+5] OBJECT 
