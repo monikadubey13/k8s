@@ -117,5 +117,5 @@ Replication controller
 Replicaset
 Deployment
 Stateful set
-
+Daemon set
 
