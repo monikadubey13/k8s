@@ -119,4 +119,6 @@ Deployment
 Stateful set
 Daemon set
 Config Map
+Secrets
+H
 
