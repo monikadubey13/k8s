@@ -116,5 +116,6 @@ Namespace
 Replication controller
 Replicaset
 Deployment
-Stateful
+Stateful set
+
 
