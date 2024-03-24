@@ -113,7 +113,7 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 - Pods
 - Service
 - Namespace
-Replication controller
+- Replication controller
 Replicaset
 Deployment
 Statefulset
