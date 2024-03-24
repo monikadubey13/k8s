@@ -113,5 +113,5 @@ Nodes
 Pods
 Service
 Namespace
-Replicat
+Replication
 
