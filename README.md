@@ -120,5 +120,6 @@ Stateful set
 Daemon set
 Config Map
 Secrets
-hpa [Horisho]
+hpa 
+
 
