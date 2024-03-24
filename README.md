@@ -112,4 +112,5 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 Nodes
 Pods
 Service
-
+Namespace
+Re
