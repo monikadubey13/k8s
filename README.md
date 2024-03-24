@@ -98,13 +98,11 @@ Group of nodes is known as cluster. At the hardware level, a Kubernetes cluster 
  
 ![alt text](<K8S lifecycle policy.png>)
 
+ - As we know it acts as a middle-ware or we can say frontend for kubernetes and also it is a primary management point for the cluster.
+ - Its work is to communicate with users as well as other components.
+ - API Server gives signals to ETCD as the project arrived. Ather which ETCD will stores the data and send signals to schedular through API Server to  schedule a task.
+- Then after scheduling a task, the data has to be stored in ETCD so the signals will go throght API Server to ETCD, so as to store data.
+- Now, moving towards the componants of worker nodes kubelate and kubeproxy. Kubelete will recive a task from schedular through API Server to create a pod.
+- Kubepoxy is a network proxy that runs on each node and maintains network rules to enable communication between pods across the cluster. It manages network connectivity for services, load balancing, and routing traffic to the appropriate pods.
 
-
- 
- 
-
-
-
-
-
-
+During the pod lifecycle, these components collaborate to ensure pods are created, scheduled onto nodes, monitored, and managed according to the desired state specified by users or administrators. The orchestration allows kubernetes to maintain the availabilty, and scalabilty and reliability of applications running in the cluster.
