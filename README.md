@@ -121,5 +121,6 @@ Daemon set
 Config Map
 Secrets
 hpa 
-
+Ingress
+PV 
 
