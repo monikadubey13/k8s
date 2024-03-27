@@ -140,7 +140,7 @@ The Service object in Kubernetes is a crucial component for enabling networking 
 As we know containers does not have ip, it contains ports. In one pod the port of the containers should be different because it can't expose on same port.
 
    - When to communicate with the container present in the same pod, at that time we use LOCALHOST:8080
-   - When to communicate with the container present in the same nodes but in different pods, a
+   - When to communicate with the container present in the same nodes but in different pods, at that time use 
 
 
 
