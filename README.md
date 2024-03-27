@@ -126,3 +126,5 @@ In Kubernetes (often abbreviated as K8s), objects are entities used to represent
 - Ingress
 - PV and PVC
 
+
+
