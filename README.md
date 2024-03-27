@@ -143,6 +143,8 @@ As we know containers does not have ip, it contains ports. In one pod the port o
    - When to communicate with the container present in the same nodes but in different pods, at that time use Pod ip:port
    - When to communicate with the different containers present in the different nodes of pods, at that time use Pod ip:port.
 
+#
+
 
 
 
