@@ -126,7 +126,7 @@ In Kubernetes, objects are entities used to represent the desired state of the c
 - Ingress
 - PV and PVC
 
-#
+# - Nodes
 
 
 
