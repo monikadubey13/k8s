@@ -139,7 +139,7 @@ Pods are the wrapper around the containers and also the smallest deployable unit
 The Service object in Kubernetes is a crucial component for enabling networking and service discovery within the cluster. It abstracts away the underlying network details and provides a consistent way to access a set of Pods. Services play a critical role in Kubernetes networking, allowing Pods to communicate with each other and enabling external access to applications running within the cluster. They abstract away the complexities of network routing and provide a stable interface for accessing distributed applications.
 As we know containers does not have ip, it contains ports. In one pod the port of the containers should be different because it can't expose on same port.
 
-When to communicate with the container present in the same pod, at that time s
+When to communicate with the container present in the same pod, at that time we use LOCAL
 
 
 
