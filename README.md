@@ -128,6 +128,7 @@ In Kubernetes, objects are entities used to represent the desired state of the c
 
 # - Nodes:-
 
+A node is a worker machine in Kubernetes. It may be a VM or physical machine, depending on the cluster configuration. Each node has the necessary services to run pods and is managed by the master components of Kubernetes.
 
 
 
