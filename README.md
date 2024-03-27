@@ -144,3 +144,4 @@ As we know containers does not have ip, it contains ports. In one pod the port o
 
 
 
+
