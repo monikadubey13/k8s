@@ -1,6 +1,6 @@
 # Kubernetes Documentation
 
-This repository contains some required details about kubernetes. It will help you to know about kubernetes i.e what is kubernetes, why we use kubernetes, Architecture of kubernetes, Objects of kubernetes. I had providend some examples on each object which will help you to understand.
+This repository contains some required details about kubernetes. It will help you to know about kubernetes i.e what is kubernetes, why we use kubernetes, Architecture of kubernetes, Objects of kubernetes. 
 
 ## 1] WHAT IS KUBERNETES?
 
