@@ -132,7 +132,7 @@ A node is a worker machine in Kubernetes. It may be a VM or physical machine, de
 
 # - Pods:- 
 
-Pods are the rapper around the containers and also the smallest deployable units in Kubernetes, representing a single instance of a running process in your cluster.A Pod is the basic building block of Kubernetes, representing a single instance of a running process in your cluster. Pods can consist of one or more containers that are tightly coupled and share resources, such as networking and storage.
+Pods are the rapper around the containers and also the smallest deployable units in Kubernetes. A Pod is the basic building block of Kubernetes, representing a single instance of a running process in your cluster. Pods can consist of one or more containers that are tightly coupled and share resources, such as networking and storage.
 
 
 
