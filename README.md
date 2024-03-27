@@ -109,7 +109,7 @@ During the pod lifecycle, these components collaborate to ensure pods are create
 
 ## 5] TYPES OF OBJECTS IN K8S
 
-In Kubernetes, objects are entities used to represent the desired state of the cluster. They define what applications, services, and other resources should exist, how they should behave, and what their characteristics are. Kubernetes uses these objects to manage and orchestrate the various components within a cluster. What Here are some commonly used Kubernetes objects:
+In Kubernetes, objects are entities used to represent the desired state of the cluster. They define what applications, services, and other resources should exist, how they should behave, and what their characteristics are. Kubernetes uses these objects to manage and orchestrate the various components within a cluster. Whatever we create on cluster is Here are some commonly used Kubernetes objects:
 
 - Nodes
 - Pods
