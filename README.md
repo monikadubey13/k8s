@@ -137,7 +137,7 @@ Pods are the wrapper around the containers and also the smallest deployable unit
 # - Service:- 
 
 The Service object in Kubernetes is a crucial component for enabling networking and service discovery within the cluster. It abstracts away the underlying network details and provides a consistent way to access a set of Pods. Services play a critical role in Kubernetes networking, allowing Pods to communicate with each other and enabling external access to applications running within the cluster. They abstract away the complexities of network routing and provide a stable interface for accessing distributed applications.
-As we 
+As we know 
 
 
 
