@@ -128,7 +128,9 @@ In Kubernetes, objects are entities used to represent the desired state of the c
 
 # - Nodes:-
 
-A node is a worker machine in Kubernetes. It may be a VM or physical machine, depending on the cluster configuration. Each node has the necessary services to run pods and is managed by the master components of Kubernetes. Nodes in a Kubernetes cluster are managed automatically, and their details are typically viewed through commands like kubectl get nodes rather than through manifest files. However, you can use manifest files to apply labels and annotations to nodes if needed.
+A node is a worker machine in Kubernetes. It may be a VM or physical machine, depending on the cluster configuration. Each node has the necessary services to run pods and is managed by the master components of Kubernetes. Nodes in a Kubernetes cluster are managed automatically, and their details are typically viewed through commands like 'kubectl' get nodes rather than through manifest files. However, you can use manifest files to apply labels and annotations to nodes if needed.
+
+
 
 
 
