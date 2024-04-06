@@ -126,11 +126,11 @@ In Kubernetes, objects are entities used to represent the desired state of the c
 - Ingress
 - PV and PVC
 
-# - Nodes:-
+# - Nodes :-
 
 A node is a worker machine in Kubernetes. It may be a VM or physical machine, depending on the cluster configuration. Each node has the necessary services to run pods and is managed by the master components of Kubernetes. Nodes in a Kubernetes cluster are managed automatically, and their details are typically viewed through commands like 'kubectl' get nodes rather than through manifest files. However, you can use manifest files to apply labels and annotations to nodes if needed.
 
-# - Pods:- 
+# - Pods :- 
 
 Pods are the wrapper around the containers and also the smallest deployable units in Kubernetes. A Pod is the basic building block of Kubernetes, representing a single instance of a running process in your cluster. Pods can consist of one or more containers that are tightly coupled and share resources, such as networking and storage. Pods are ephemeral by nature, meaning they can be created, destroyed, and rescheduled dynamically by Kubernetes. They are designed to be disposable and replaceable, allowing for easy scaling, updating, and maintenance of containerized applications within the cluster.
 
