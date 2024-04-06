@@ -185,7 +185,7 @@ In Kubernetes, an Ingress is an API object that manages external access to servi
 
 # - PV & PVC:-
 
-It is a kubernetes object
+It is a kubernetes object which is 
 
 
 
