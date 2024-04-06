@@ -173,7 +173,7 @@ A ConfigMap in Kubernetes is an API object used to store configuration data in k
 
 # - secrets:-
 
-
+A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Secrets are stored within the cluster and can be mounted into containers as data volumes or exposed as environment variables.
 
 
 
