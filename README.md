@@ -134,7 +134,7 @@ A node is a worker machine in Kubernetes. It may be a VM or physical machine, de
 
 Pods are the wrapper around the containers and also the smallest deployable units in Kubernetes. A Pod is the basic building block of Kubernetes, representing a single instance of a running process in your cluster. Pods can consist of one or more containers that are tightly coupled and share resources, such as networking and storage. Pods are ephemeral by nature, meaning they can be created, destroyed, and rescheduled dynamically by Kubernetes. They are designed to be disposable and replaceable, allowing for easy scaling, updating, and maintenance of containerized applications within the cluster.
 
-# - Service:- 
+# - Service :- 
 
 The Service object in Kubernetes is a crucial component for enabling networking and service discovery within the cluster. It abstracts away the underlying network details and provides a consistent way to access a set of Pods. Services play a critical role in Kubernetes networking, allowing Pods to communicate with each other and enabling external access to applications running within the cluster. They abstract away the complexities of network routing and provide a stable interface for accessing distributed applications.
 As we know containers does not have ip, it contains ports. In one pod the port of the containers should be different because it can't expose on same port. 
