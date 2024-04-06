@@ -169,7 +169,9 @@ A DaemonSet is a Kubernetes object used to ensure that a copy of a specific pod 
 
 # - ConfigMap:-
 
+A ConfigMap in Kubernetes is an API object used to store configuration data in key-value pairs that can be consumed by containerized applications running in the cluster. ConfigMaps decouple configuration from application code, allowing for more flexible and portable deployments.
 
+# - 
 
 
 
