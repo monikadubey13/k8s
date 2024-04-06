@@ -177,7 +177,7 @@ A Secret is an object that contains a small amount of sensitive data such as a p
 
 # - hpa [Horizontal Pod Autoscaler]:-
 
-
+Horizontal Pod Autoscaler (HPA) is a Kubernetes resource that automatically adjusts the number of replica pods in a deployment, replication controller, or replica set based on observed CPU utilization or custom metrics. It helps in scaling applications in or out to meet varying demand.
 
 
 
