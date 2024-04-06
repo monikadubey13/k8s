@@ -145,7 +145,15 @@ As we know containers does not have ip, it contains ports. In one pod the port o
 
 # - Namespace:- 
 
+A namespace is a virtual cluster inside a Kubernetes cluster. It is used to group resources together and provide a scope for their names. By default, kubernetes starts with a single namespace called 'default', but you can create additional namespaces to organize and isolate resource. Namespaces allow you to logically partition your kubernetes cluster, providing a way to organize and isolate resources for different teams, projects, or environments.
 
+# - Replication Controller:-
+
+The Replication Controller is one of the fundamental Kubernetes objects used for managing pod replication and ensuring that a specified number of pod replicas are running at any given time. It belongs to the core kubernetes API group and is widely used for basic pod lifecycle management.
+
+# - Replicaset:-
+
+A replicaset is a kubernetes object used to ensure that a specified number of pod replicas are running at any given time. It is a higher-level abstraction build on top of pods, designed to manage the lifecycle of multiple pod replicas. Replicasets are typically used for stateless application where individual pods can be replaced or scaled up or down without impacting the overall application.
 
 
 
