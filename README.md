@@ -157,7 +157,9 @@ A replicaset is a kubernetes object used to ensure that a specified number of po
 
 # - Deployment:-
 
+A Deployment in Kubernetes is a resource object used to manage the deployment of replica sets and the lifecycle of pods in a declarative manner. Deployments allow you to define the desired state for your application, such as the number of replicas, pod template, and update strategy. They ensure that the specified number of pods are running and handle updates and rollbacks seamlessly.
 
+# - 
 
 
 
