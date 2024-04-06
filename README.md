@@ -167,7 +167,9 @@ A StatefulSet is a Kubernetes object used to manage stateful applications. In st
 
 A DaemonSet is a Kubernetes object used to ensure that a copy of a specific pod runs on all (or a subset of) nodes in a cluster. DaemonSets are commonly used for system-level or infrastructure-related tasks that need to run on every node, such as logging, monitoring, or networking agents.
 
-# - 
+# - ConfigMap:-
+
+
 
 
 
