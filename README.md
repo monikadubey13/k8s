@@ -185,7 +185,7 @@ In Kubernetes, an Ingress is an API object that manages external access to servi
 
 # - PV & PVC:-
 
-It is a kubernetes object which is used to store data.
+It is a kubernetes object which is used to store data.Persistent Volumes (PV) and Persistent Volume Claims (PVC) are used to manage storage in a cluster. They allow pods to request and use storage resources independently of the specifics of the underlying storage infrastructure.
 
 
 
