@@ -163,15 +163,15 @@ A Deployment in Kubernetes is a resource object used to manage the deployment of
 
 A StatefulSet is a Kubernetes object used to manage stateful applications. In statefulset pods created in a sequential order also pods deleted in a sequential order. Here the process of creation of pods is, one pod is created by template and the other one will create through the first one as the pods are sync to each other and like vice pods can be created.
 
-# - Daemonset:-
+# - Daemonset :-
 
 A DaemonSet is a Kubernetes object used to ensure that a copy of a specific pod runs on all (or a subset of) nodes in a cluster. DaemonSets are commonly used for system-level or infrastructure-related tasks that need to run on every node, such as logging, monitoring, or networking agents.
 
-# - ConfigMap:-
+# - ConfigMap :-
 
 A ConfigMap in Kubernetes is an API object used to store configuration data in key-value pairs that can be consumed by containerized applications running in the cluster. ConfigMaps decouple configuration from application code, allowing for more flexible and portable deployments.
 
-# - secrets:-
+# - secrets :-
 
 A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Secrets are stored within the cluster and can be mounted into containers as data volumes or exposed as environment variables.They provide a way to store and manage confidential data securely within a cluster. Secrets are typically used to pass sensitive information to pods without exposing it in plaintext within the pod definition or container image.
 
