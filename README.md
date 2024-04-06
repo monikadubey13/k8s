@@ -155,7 +155,7 @@ The Replication Controller is one of the fundamental Kubernetes objects used for
 
 A replicaset is a kubernetes object used to ensure that a specified number of pod replicas are running at any given time. It is a higher-level abstraction build on top of pods, designed to manage the lifecycle of multiple pod replicas. Replicasets are typically used for stateless application where individual pods can be replaced or scaled up or down without impacting the overall application.
 
-
+# - 
 
 
 
