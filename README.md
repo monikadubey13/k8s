@@ -161,7 +161,7 @@ A Deployment in Kubernetes is a resource object used to manage the deployment of
 
 # - Statefulset:-
 
-A StatefulSet is a Kubernetes object used to manage stateful applications. In statefulset pods created in a sequential order also pods deleted in a sequential order. Here the process of creation of pods is, one pod is created by template and an
+A StatefulSet is a Kubernetes object used to manage stateful applications. In statefulset pods created in a sequential order also pods deleted in a sequential order. Here the process of creation of pods is, one pod is created by template and 
 
 
 
