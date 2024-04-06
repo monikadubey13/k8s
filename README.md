@@ -175,15 +175,15 @@ A ConfigMap in Kubernetes is an API object used to store configuration data in k
 
 A Secret is an object that contains a small amount of sensitive data such as a password, a token, or a key. Secrets are stored within the cluster and can be mounted into containers as data volumes or exposed as environment variables.They provide a way to store and manage confidential data securely within a cluster. Secrets are typically used to pass sensitive information to pods without exposing it in plaintext within the pod definition or container image.
 
-# - hpa [Horizontal Pod Autoscaler]:-
+# - hpa [Horizontal Pod Autoscaler] :-
 
 Horizontal Pod Autoscaler (HPA) is a Kubernetes resource that automatically adjusts the number of replica pods in a deployment, replication controller, or replica set based on observed CPU utilization or custom metrics. It helps in scaling applications in or out to meet varying demand.
 
-# - Ingress:-
+# - Ingress :-
 
 In Kubernetes, an Ingress is an API object that manages external access to services within a cluster, typically HTTP. It provides HTTP and HTTPS routing to services based on the requested host and path. Ingress is often used to expose HTTP and HTTPS routes from outside the cluster to services within the cluster without exposing them directly to the internet.
 
-# - PV & PVC:-
+# - PV & PVC :-
 
 It is a kubernetes object which is used to store data.Persistent Volumes (PV) and Persistent Volume Claims (PVC) are used to manage storage in a cluster. They allow pods to request and use storage resources independently of the specifics of the underlying storage infrastructure.A PersistentVolume (PV) is a piece of storage in the cluster that has been provisioned by an administrator. It is a resource in the cluster, just like a node, that can be requested by users (via PersistentVolumeClaims) and consumed by pods. PVs are cluster-wide resources and can be dynamically provisioned or statically defined.
 
