@@ -155,11 +155,11 @@ The Replication Controller is one of the fundamental Kubernetes objects used for
 
 A replicaset is a kubernetes object used to ensure that a specified number of pod replicas are running at any given time. It is a higher-level abstraction build on top of pods, designed to manage the lifecycle of multiple pod replicas. Replicasets are typically used for stateless application where individual pods can be replaced or scaled up or down without impacting the overall application.
 
-# - Deployment:-
+# - Deployment :-
 
 A Deployment in Kubernetes is a resource object used to manage the deployment of replica sets and the lifecycle of pods in a declarative manner. Deployments allow you to define the desired state for your application, such as the number of replicas, pod template, and update strategy. They ensure that the specified number of pods are running and handle updates and rollbacks seamlessly.
 
-# - Statefulset:-
+# - Statefulset :-
 
 A StatefulSet is a Kubernetes object used to manage stateful applications. In statefulset pods created in a sequential order also pods deleted in a sequential order. Here the process of creation of pods is, one pod is created by template and the other one will create through the first one as the pods are sync to each other and like vice pods can be created.
 
