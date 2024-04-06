@@ -183,7 +183,7 @@ Horizontal Pod Autoscaler (HPA) is a Kubernetes resource that automatically adju
 
 n Kubernetes, an Ingress is an API object that manages external access to services within a cluster, typically HTTP. It provides HTTP and HTTPS routing to services based on the requested host and path. Ingress is often used to expose HTTP and HTTPS routes from outside the cluster to services within the cluster without exposing them directly to the internet.
 
-# - PV 
+# - PV & pv
 
 
 
